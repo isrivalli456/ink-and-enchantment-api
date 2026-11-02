@@ -1,0 +1,37 @@
+
+research_task:
+  description: >
+    Conduct detailed research about {topic}.
+    Identify the most important facts, concepts, examples,
+    and relevant information.
+    Focus on information suitable for {target_audience}.
+  expected_output: >
+    A clear and well-organized research summary about {topic},
+    containing reliable information and useful insights.
+  agent: researcher
+
+writing_task:
+  description: >
+    Using the research provided by the researcher, write
+    an engaging and informative blog about {topic}.
+
+    Target audience: {target_audience}
+    Writing tone: {tone}
+    Desired length: {length}
+    Target word count: approximately {words} words.
+
+    Follow the selected tone and write at a level appropriate
+    for the target audience.
+
+    Include:
+    - An attractive and relevant title
+    - An engaging introduction
+    - Well-organized headings and sections
+    - Detailed explanations and relevant examples
+    - A meaningful conclusion
+
+    Avoid unnecessary repetition and unsupported claims.
+  expected_output: >
+    A complete, polished blog post about {topic}, following
+    the requested tone, length, and target audience.
+  agent: writer
